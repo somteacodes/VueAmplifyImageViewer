@@ -1,5 +1,5 @@
 {
-  "name": "VueAmplifyImageViewer",
+  "name": "vue-amplify-image-viewer",
   "version": "0.0.1",
   "description": "Render images from S3 bucket",
   "main": "dist/vue-amplify-image-viewer.ssr.js",
@@ -24,9 +24,9 @@
   "author": "Anunobi Somto (https://github.com/somteacodes)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/somteacodes/vue3-paystack/issues"
+    "url": "https://github.com/somteacodes/VueAmplifyImageViewer/issues"
   },
-  "homepage": "https://vue3paystack.netlify.app/",
+  "homepage": "https://vueamplifyimageviewer.netlify.app",
   "sideEffects": false,
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",

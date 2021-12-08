@@ -2,7 +2,7 @@
 import { defineComponent } from 'vue';
  import {Storage} from "aws-amplify";
 export default /*#__PURE__*/defineComponent({
-  name: 'VueAmplifyImageViewer', // vue component name
+  name: 'vue-amplify-image-viewer', // vue component name
    props: {
     imageurl:{
       type: String,

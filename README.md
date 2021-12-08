@@ -1,6 +1,6 @@
-# Vue3-Paystack
+# vue-amplify-image-viewer 
 
-VueAmplifyImageViewer allows you to render images stored in S3 bucket in your vue application created with vue3.
+vue-amplify-image-viewer allows you to render images stored in S3 bucket in your vue application created with vue3.
 
 ### NPM
 ```npm
@@ -9,19 +9,19 @@ npm i vue-amplify-image-viewer
 ## Usage
 ```javascript
 <template>
-     <VueAmplifyImageViewer 
+     <vue-amplify-image-viewer 
       :imageurl="'image.jpg'"                    
       :showLoading="true"                                      
                     
-    ></VueAmplifyImageViewer>
+    ></vue-amplify-image-viewer>
 </template>
 
  <script>
-import VueAmplifyImageViewer from "vue-amplify-image-viewer";
+import vue-amplify-image-viewer from "vue-amplify-image-viewer";
 
 export default {
   components: {
-    VueAmplifyImageViewer,
+    vue-amplify-image-viewer,
   },
 }
   </script>
